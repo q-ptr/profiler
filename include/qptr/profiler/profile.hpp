@@ -5,7 +5,7 @@
 // | .__/|_|  \___/|_| |_|_|\___|_|     https://github.com/q-ptr/profiler
 // |_|                                
 //
-// SPDX-FileCopyrightText: 2023 qptr
+// SPDX-FileCopyrightText: 2023 q-ptr
 // SPDX-License-Identifier: MIT
 
 #pragma once
