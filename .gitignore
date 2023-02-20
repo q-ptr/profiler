@@ -1,0 +1,4 @@
+tests/bin/
+*.user
+tests/build/.vs/
+tests/temp/
