@@ -1,5 +1,5 @@
-tests/bin/
 *.user
+tests/bin/
 tests/build/.vs/
 tests/temp/
 tests/build/profiling.json
