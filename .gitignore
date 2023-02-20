@@ -2,3 +2,4 @@ tests/bin/
 *.user
 tests/build/.vs/
 tests/temp/
+tests/build/profiling.json
