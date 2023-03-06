@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\qptr">
+      <UniqueIdentifier>{22165e0f-4e3e-4d86-a0f7-dc1980da31e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qptr\profiler">
+      <UniqueIdentifier>{7af8a164-5c67-4bfa-9390-64b53a1128a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qptr\profiler\analyzers">
+      <UniqueIdentifier>{ab2e14b2-a30b-4d42-9958-245d1e8f0ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qptr\profiler\analyzers\basic">
+      <UniqueIdentifier>{8b574f1f-3b4b-4088-af10-3d78b9c914df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qptr\profiler\detail">
+      <UniqueIdentifier>{54e355ad-83aa-4ab0-bc10-cc6a9b4ec66c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\tests\tests\profiler_tests_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\analyzer.hpp">
+      <Filter>Header Files\qptr\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\profile.hpp">
+      <Filter>Header Files\qptr\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\version.hpp">
+      <Filter>Header Files\qptr\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\analyzers\basic\analyzer.hpp">
+      <Filter>Header Files\qptr\profiler\analyzers\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\analyzers\basic\json_output.hpp">
+      <Filter>Header Files\qptr\profiler\analyzers\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\analyzers\basic\output.hpp">
+      <Filter>Header Files\qptr\profiler\analyzers\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\clock.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\event.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\events.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\global_profiler.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\json_writer.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\scope_helper.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\thread_entries.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\qptr\profiler\detail\thread_profiler.hpp">
+      <Filter>Header Files\qptr\profiler\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\tests\tests\json.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\tests\tests\json_fwd.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

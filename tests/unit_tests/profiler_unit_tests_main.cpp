@@ -8,21 +8,22 @@
 /// SPDX-FileCopyrightText: 2023 q-ptr
 /// SPDX-License-Identifier: MIT
 
-#pragma once
+#include <catch_amalgamated.hpp>
 
 
-#include <qptr/profiler/detail/clock.hpp>
-#include <cstdint>
-
-
-namespace qptr::profiler::detail
+int main(int argc, char *argv[])
 {
+	int   nResult = Catch::Session().run(argc, argv);
 
-struct event_t final
+	return nResult;
+}
+
+TEST_CASE("predef", "[predef]")
 {
-	const char          *name_;
-	clock::time_point   start_;
-	clock::time_point   stop_;
-};
+	REQUIRE(1 == 1);
 
-}//namespace qptr::profiler::detail
+	SECTION("test_section")
+	{
+		REQUIRE(1 == sizeof(uint8_t));
+	}
+}

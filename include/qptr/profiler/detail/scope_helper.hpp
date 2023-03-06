@@ -1,12 +1,12 @@
-//                   __ _ _           
-//  _ __  _ __ ___  / _(_) | ___ _ __   
-// | '_ \| '__/ _ \| |_| | |/ _ \ '__|  profiler - simple intrusive C++ profiler
-// | |_) | | | (_) |  _| | |  __/ |     ---------------------------------
-// | .__/|_|  \___/|_| |_|_|\___|_|     https://github.com/q-ptr/profiler
-// |_|                                
-//
-// SPDX-FileCopyrightText: 2023 q-ptr
-// SPDX-License-Identifier: MIT
+///                   __ _ _           
+///  _ __  _ __ ___  / _(_) | ___ _ __   
+/// | '_ \| '__/ _ \| |_| | |/ _ \ '__|  profiler - simple intrusive C++ profiler
+/// | |_) | | | (_) |  _| | |  __/ |     ---------------------------------
+/// | .__/|_|  \___/|_| |_|_|\___|_|     https://github.com/q-ptr/profiler
+/// |_|                                
+///
+/// SPDX-FileCopyrightText: 2023 q-ptr
+/// SPDX-License-Identifier: MIT
 
 
 #include <qptr/profiler/detail/thread_profiler.hpp>

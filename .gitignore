@@ -3,3 +3,6 @@ tests/bin/
 tests/build/.vs/
 tests/temp/
 tests/build/profiling.json
+build/
+.vs/
+tools/msvc/tests/tests/profiling.json

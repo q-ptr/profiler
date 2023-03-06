@@ -8,21 +8,27 @@
 /// SPDX-FileCopyrightText: 2023 q-ptr
 /// SPDX-License-Identifier: MIT
 
-#pragma once
-
-
-#include <qptr/profiler/detail/clock.hpp>
 #include <cstdint>
 
 
-namespace qptr::profiler::detail
+extern "C" int LLVMFuzzerInitialize(int *argc, char ***argv)
 {
+	(void) argc;
+	(void) argv;
 
-struct event_t final
+	return 0;
+}
+
+extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t data_size)
 {
-	const char          *name_;
-	clock::time_point   start_;
-	clock::time_point   stop_;
-};
+	(void) data;
+	(void) data_size;
 
-}//namespace qptr::profiler::detail
+	return 0;
+}
+
+//temporary...
+int main()
+{
+	return 0;
+}

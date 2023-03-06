@@ -1,12 +1,12 @@
-//                   __ _ _           
-//  _ __  _ __ ___  / _(_) | ___ _ __   
-// | '_ \| '__/ _ \| |_| | |/ _ \ '__|  profiler - simple intrusive C++ profiler
-// | |_) | | | (_) |  _| | |  __/ |     ---------------------------------
-// | .__/|_|  \___/|_| |_|_|\___|_|     https://github.com/q-ptr/profiler
-// |_|                                
-//
-// SPDX-FileCopyrightText: 2023 q-ptr
-// SPDX-License-Identifier: MIT
+///                   __ _ _           
+///  _ __  _ __ ___  / _(_) | ___ _ __   
+/// | '_ \| '__/ _ \| |_| | |/ _ \ '__|  profiler - simple intrusive C++ profiler
+/// | |_) | | | (_) |  _| | |  __/ |     ---------------------------------
+/// | .__/|_|  \___/|_| |_|_|\___|_|     https://github.com/q-ptr/profiler
+/// |_|                                
+///
+/// SPDX-FileCopyrightText: 2023 q-ptr
+/// SPDX-License-Identifier: MIT
 
 #pragma once
 
@@ -18,7 +18,7 @@
 namespace qptr::profiler
 {
 
-static inline const std::string           VERSION_NAME          = "qptr.profiler";
+static inline const std::string           VERSION_NAME          = "q-ptr.profiler";
 static inline const std::string           VERSION_DESCRIPTION   = "simple intrusive C++ profiler";
 static inline const std::string           VERSION_URL           = "https://github.com/q-ptr/profiler";
 
