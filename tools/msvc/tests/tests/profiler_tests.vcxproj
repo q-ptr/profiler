@@ -193,7 +193,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -207,7 +207,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -223,7 +223,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -241,7 +241,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -257,7 +257,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -271,7 +271,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -287,7 +287,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -305,7 +305,7 @@
       <PreprocessorDefinitions>FMT_HEADER_ONLY;QPTR_PROFILER_ENABLED;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_DIR)/predef/include;$(CPP_CONTRIB_DIR)/json/include;$(CPP_CONTRIB_DIR)/predef/include;$(CPP_CONTRIB_DIR)/unordered_dense/include;$(CPP_CONTRIB_DIR)/semver/include;$(CPP_CONTRIB_DIR)/fmt/include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../../../tests/tests;../../../../include;$(CPP_PROJECTS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/json/include;$(CPP_CONTRIBS_PATH)/predef/include;$(CPP_CONTRIBS_PATH)/unordered_dense/include;$(CPP_CONTRIBS_PATH)/semver/include;$(CPP_CONTRIBS_PATH)/fmt/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
